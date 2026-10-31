@@ -58,9 +58,9 @@ public class MainActivity extends Activity {
 
         LinearLayout hero = card(navy, 24);
         hero.setPadding(dp(20), dp(22), dp(20), dp(22));
-        addText(hero, "پیام‌بان", 29, Color.WHITE, true);
+        addText(hero, "زنگ خطر", 29, Color.WHITE, true);
         addSpace(hero, 7);
-        addText(hero, "دستیار آفلاین بررسی پیام‌ها و لینک‌های مشکوک", 14,
+        addText(hero, "هشدار پیامک و لینک • تحلیل کاملاً آفلاین", 14,
                 Color.rgb(207, 224, 237), false);
         addSpace(hero, 13);
         TextView privacy = pill("کاملاً محلی • بدون ارسال اطلاعات", Color.rgb(31, 65, 83),
